@@ -5,7 +5,7 @@ import streamlit as st
 
 from helper import get_panel
 
-file_path = "../data/IF_data/"
+file_path = "data/IF_data/"
 
 patients = []
 for filename in os.listdir(file_path + "IF1"):
