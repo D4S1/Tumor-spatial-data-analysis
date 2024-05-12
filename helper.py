@@ -2,7 +2,6 @@ import pandas as pd
 from scipy.sparse.csgraph import connected_components
 from sklearn.neighbors import radius_neighbors_graph, KDTree
 import plotly.express as px
-import numpy as np
 
 FILE_PATH = "data/IF_data/"
 
